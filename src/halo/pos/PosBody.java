@@ -138,6 +138,13 @@ public class PosBody {
 		return b;
 	}
 
+	/**
+	 * 默认的数据mac签名算法
+	 * 
+	 * @param posMacEnc
+	 * @return
+	 * @throws Exception
+	 */
 	public PosMacField createMacField(PosMacEnc posMacEnc) throws Exception {
 		byte[] b = this.build();
 		PosMacField macField = new PosMacField();

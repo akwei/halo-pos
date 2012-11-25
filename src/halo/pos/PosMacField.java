@@ -7,7 +7,7 @@ import java.util.List;
 
 public class PosMacField extends PosFixedLenField {
 
-	private PosMacEnc posMacEnc;
+	protected PosMacEnc posMacEnc;
 
 	public void setPosMacEnc(PosMacEnc posMacEnc) {
 		this.posMacEnc = posMacEnc;
